@@ -1,5 +1,6 @@
 {
-  "name": "Spotify-Wrapper",
+  "name": "spotify-wrapper",
+  "description": "A wrapper to work with the Spotify Web Api",
   "version": "1.0.0",
   "main": "src/index.js",
   "repository": "https://github.com/timeoutguy/Spotify-Wrapper",
@@ -7,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "test": "mocha ./tests/**/*.spec.js --require sucrase/register"
+    "test": "mocha ./tests/**/*.spec.js --require sucrase/register",
+    "test:watch": "yarn test --watch"
   },
   "devDependencies": {
     "eslint": "^7.2.0",
